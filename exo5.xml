@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE carnet SYSTEM "exo5.dtd">
+<carnet>
+  <entree>
+    <nom>Tall</nom>
+    <prenom>Zahra</prenom>
+    <adresse>Cite gendarmerie</adresse>
+    <telephone>771582104</telephone>
+    <telephone>781352056</telephone>
+    <mail>fatimatouzahratall@esp.sn</mail>
+    <mail>fztall@gmail.com</mail>
+    <anniversaire>
+      <jour>28</jour>
+      <mois>fevrier</mois>
+      <annee>2002</annee>
+    </anniversaire>
+  </entree>
+  <entree>
+    <nom>Sow</nom>
+    <prenom>Mariama</prenom>
+    <adresse>Cite douanes</adresse>
+    <telephone>778717499</telephone>
+    <mail>mariamasow2@esp.sn</mail>
+    <anniversaire>
+      <jour>24</jour>
+      <mois>Decembre</mois>
+      <annee>2002</annee>
+    </anniversaire>
+  </entree>
+</carnet>

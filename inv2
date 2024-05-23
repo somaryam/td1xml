@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE examen SYSTEM "examen.dtd">
+<examen>
+  <code>INF101</code>
+  <titre>Introduction à l'informatique</titre>
+  <date>
+    <mois>Janvier</mois>
+    <annee>2024</annee>
+  </date>
+  <questions>
+    <question>
+      <partie>Expliquez le concept de programmation orientée objet.</partie>
+    </question>
+    <question>
+      <partie>Décrivez les structures de données linéaires.</partie>
+    </question>
+  </questions>
+</examen>
+
+Explication : Le document contient seulement deux questions, ce qui viole la 
+contrainte de la DTD qui exige entre 5 et 6 questions.

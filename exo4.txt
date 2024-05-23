@@ -1,0 +1,11 @@
+
+Soit la DTD suivante :
+<!ELEMENT anthologie (poeme+)>
+<!ELEMENT Poeme (titre?, strophe+)>
+<!ELEMENT titre (#PCDATA)>
+<!ELEMENT strophe (ligne+)>
+<!ELEMENT ligne (#PCDATA)>
+Cette DTD est-elle correcte ? Justifier.
+
+Les noms d'éléments en XML sont sensibles à la casse. 
+poeme et Poeme sont considérés comme deux éléments distincts

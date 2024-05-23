@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE examen SYSTEM "examen.dtd">
+<examen>
+  <code>INF 101</code> <!-- Erreur : le code de cours contient un espace -->
+  <titre>Introduction à l'informatique</titre>
+  <date>
+    <mois>Janvier</mois>
+    <annee>2024</annee>
+  </date>
+  <questions>
+    <question>
+      <partie>Expliquez le concept de programmation orientée objet.</partie>
+    </question>
+    <question>
+      <partie>Décrivez les structures de données linéaires.</partie>
+    </question>
+    <question>
+      <partie>Analysez les avantages de l'utilisation des bases de données relationnelles.</partie>
+    </question>
+    <question>
+      <partie>Qu'est-ce que l'algorithme de tri rapide ?</partie>
+    </question>
+    <question>
+      <partie>Comparez et contrastes les langages de programmation compilés et interprétés.</partie>
+    </question>
+  </questions>
+</examen>
+
+Explication : Le code de cours INF 101 contient un espace,
+ ce qui viole la contrainte alphanumérique sans espace définie par la DTD.

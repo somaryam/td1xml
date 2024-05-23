@@ -1,0 +1,11 @@
+<!ELEMENT carnet (entree+)>
+<!ELEMENT entree (nom, prenom, adresse, telephone*, mail*, anniversaire)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT prenom (#PCDATA)>
+<!ELEMENT adresse (#PCDATA)>
+<!ELEMENT telephone (#PCDATA)>
+<!ELEMENT mail (#PCDATA)>
+<!ELEMENT anniversaire (jour, mois, annee)>
+<!ELEMENT jour (#PCDATA)>
+<!ELEMENT mois (#PCDATA)>
+<!ELEMENT annee (#PCDATA)>
