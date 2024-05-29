@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dialogue SYSTEM "exo3.dtd">
+<dialogue>
+    <situation>deux etudiants se rencontrent devant l'esp, l'un demande a l autre ou se trouve le departement genie insformtique </situation>
+        <replique>
+            <personnage>Fatima</personnage>
+            <texte>Ou se trouve le departement genie informatique </texte>
+        </replique>
+        <replique>
+            <personnage>Aicha</personnage>
+            <texte>Vous allez tout droit c'est en face du terrain de football  </texte>
+        </replique>
+        <replique>
+            <personnage>Fatima</personnage>
+            <texte> merci </texte>
+        </replique>
+</dialogue>

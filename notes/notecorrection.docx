@@ -1,0 +1,82 @@
+
+empty : balise vide
+obliger non balises paires vide , transformer en attribut et mettre required
+
+utiliser : xml spy, oxygen, ediX xml, XML code
+
+
+
+
+
+dtd externe:
+<?xml version= "1.0”?>
+<!DOCTYPE doc SYSTEM "./docint.dtd " >
+<doc
+
+
+dtd interne: 
+<?XML version="1.0" standalone="yes"?>
+<!DOCTYPE CATALOGUE [
+<!ELEMENT CATALOGUE (VOITURES +)>
+<!ELEMENT VOITURES (SPECIFICATION+, ANNEE, PRIX)>
+<!ATTLIST VOITURES NOM CDATA #REQUIRED>
+<!ELEMENT SPECIFICATION EMPTY>
+<!ATTLIST SPECIFICATION MARQUE CDATA #REQUIRED 
+ COULEUR CDATA #REQUIRED>
+<!ELEMENT ANNEE (#PCDATA)>
+<!ELEMENT PRIX (#PCDATA)>
+ ]>
+<CATALOGUE>
+
+
+
+
+standalone:
+L'attribut `standalone` est utilisé dans la déclaration XML (`<?xml ... ?>`) pour \
+indiquer si le document XML est autonome (standalone) ou s'il dépend d'autres ressources externes 
+telles que des fichiers DTD (Document Type Definition) ou des fichiers de schéma XML. Voici comment 
+il est utilisé :
+
+```xml
+<?xml version="1.0" standalone="yes"?>
+```
+
+ou
+
+```xml
+<?xml version="1.0" standalone="no"?>
+```
+
+- Lorsque `standalone="yes"`, cela signifie que le document XML est autonome et ne dépend d'aucune ressource externe. Toutes les informations nécessaires pour traiter le document XML sont contenues dans le document lui-même.
+- Lorsque `standalone="no"`, cela signifie que le document XML peut dépendre de ressources externes telles que des DTD ou des fichiers de schéma XML pour être correctement traité.
+
+L'attribut `standalone` est facultatif et n'est pas toujours spécifié dans la déclaration XML. Cependant, lorsqu'il est spécifié, il fournit des informations importantes sur la manière dont le document XML doit être traité.
+
+
+
+systempublic:
+Dans la déclaration XML (`<?xml ... ?>`), les attributs `system` et `public` sont utilisés 
+dans la déclaration DOCTYPE pour spécifier l'emplacement des fichiers de DTD (Document Type Definition) 
+externes :
+
+- **Attribut `system` :** Cet attribut spécifie l'emplacement local du fichier DTD sur 
+le système de fichiers. Par exemple :
+
+  ```xml
+  <!DOCTYPE racine SYSTEM "chemin/vers/le/fichier.dtd">
+  ```
+
+- **Attribut `public` :** Cet attribut spécifie un identificateur public qui est associé au fichier DTD.
+ L'identificateur public est généralement utilisé pour faire référence à une DTD stockée sur Internet 
+ ou sur un réseau local, plutôt que sur le système de fichiers local. Par exemple :
+
+  ```xml
+  <!DOCTYPE racine PUBLIC "-//Exemple//DTD Exemple//FR" "http://www.example.com/fichier.dtd">
+  ```
+
+Dans cet exemple, `"-//Exemple//DTD Exemple//FR"` est l'identificateur public et 
+`"http://www.example.com/fichier.dtd"` est l'adresse URL où la DTD est hébergée.
+
+En résumé, `system` est utilisé pour référencer une DTD stockée localement sur le système de
+ fichiers, tandis que `public` est utilisé pour référencer une DTD avec un identificateur public,
+  généralement sur Internet ou sur un réseau local.

@@ -1,0 +1,15 @@
+Soit la DTD suivante :
+<!ELEMENT anthologie (poeme+)>
+<!ELEMENT Poeme (titre?, strophe+)>
+<!ELEMENT titre (#PCDATA)>
+<!ELEMENT strophe (ligne+)>
+<!ELEMENT ligne (#PCDATA)>
+Cette DTD est-elle correcte ? Justifier.
+
+La DTD elle est incorrecte: 
+-racine non unique (anthologie et Poeme).
+-un element doit etre prealablement defini (inexistance de Poeme) avant l utilisation.
+
+
+Ne pas utiliser les preuves de l homme de la rue avec l histoir edu chat.
+ 

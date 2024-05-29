@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE examen SYSTEM "examen.dtd">
+<examen>
+  <code valeur ="M1GLSI"/>
+  <titre>POO</titre>
+  <date>
+    <mois val="Mai" />
+    <annee>2024</annee>
+  </date>
+  <questions>
+    <question>
+      <partie>Qu'est ce que la programmation orientée objet.</partie>
+    </question>
+  </questions>
+</examen>

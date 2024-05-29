@@ -1,4 +1,3 @@
-
 Soit la DTD suivante :
 <!ELEMENT anthologie (poeme+)>
 <!ELEMENT Poeme (titre?, strophe+)>

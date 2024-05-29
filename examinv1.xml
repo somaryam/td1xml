@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE examen SYSTEM "examen.dtd">
+<examen>
+ <code  valeur="M1 GLSI"/> 
+  <titre>XML</titre>
+  <date>
+    <mois>Janvier</mois>
+    <annee>2024</annee>
+  </date>
+  <questions>
+      <partie>Qu'est-ce que la DTD ?</partie>
+    </question>
+  </questions>
+</examen>

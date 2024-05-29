@@ -1,0 +1,11 @@
+<!ELEMENT examen (code, titre, date, questions)>
+<!ELEMENT code EMPTY>
+<!ELEMENT titre (#PCDATA)>
+<!ELEMENT date (mois, annee)>
+<!ELEMENT mois EMPTY>
+<!ELEMENT annee (#PCDATA)>
+<!ELEMENT questions ((question, question, question, question, question) | (question, question, question, question, question, question))>
+<!ELEMENT question (partie+)>
+<!ELEMENT partie (#PCDATA | partie)*>
+<!ATTLIST mois val (Janvier | Février | Mars | Avril | Mai | Juin | Juillet | Août | Septembre | Octobre | Novembre | Décembre) #REQUIRED>
+<!ATTLIST code valeur NMTOKEN #REQUIRED >

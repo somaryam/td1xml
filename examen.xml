@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE examen SYSTEM "examen.dtd">
+<examen>
+  <code  valeur="M1GLSI" />
+  <titre>Examen Algorithmique </titre>
+  <date>
+    <mois  val="Janvier" />
+    <annee>2024</annee>
+  </date>
+  <questions>
+    <question>
+      <partie>Qu'est ce qu'un Algorithme ? </partie>
+    </question>
+    <question>
+      <partie>Donnez 10 algorithmes de tri</partie>
+    </question>
+    <question>
+      <partie>Qu'est-ce que l'algorithme de tri a fusion ?</partie>
+    </question>
+    <question>
+      <partie>Qu'est-ce que l'algorithme de tri rapide ?</partie>
+    </question>
+    <question>
+      <partie>Qu'est-ce que l'algorithme de tri a bulle ?</partie>
+    </question>
+  </questions>
+</examen>
